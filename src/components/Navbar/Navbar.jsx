@@ -22,7 +22,8 @@ function Navbar() {
                 </li>
 
                 <li>
-                    <Link className='link' to='/favourites'>Favourites</Link>
+                    <Link className='link' to='/favourites'>Favourites  <sup>0</sup></Link>
+
                 
             </li> 
                 

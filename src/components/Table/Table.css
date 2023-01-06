@@ -1,0 +1,31 @@
+.table{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+
+
+.btn{
+    width: 80px;
+    height: 40px;
+    background-color: rgb(44, 241, 44);
+    cursor: pointer;
+    color:white;
+    border: none;
+    border: 1px solid red;
+}
+.btn_1{
+    width: 80px;
+    height: 40px;   
+    margin-left: 200px;
+    margin-top: -100px;
+    background-color: #1fb4e6;
+    cursor: pointer;
+    color:white;
+    border: 1px solid red;
+}

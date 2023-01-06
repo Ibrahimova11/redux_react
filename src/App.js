@@ -3,7 +3,9 @@ import Navbar from "./components/Navbar/Navbar";
 import Customers from "././pages/Customers/Customers";
 import Favourites from "././pages/Favourites/Favourites";
 import Home from "././pages/Home/Home";
-import Footer from "./components/Footer/Footer"
+import Footer from "./components/Footer/Footer";
+import NotFound from "./components/NotFound/NotFound";
+import Detail from './pages/Detail/Detail'
 
 
 
@@ -17,6 +19,9 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/customers" element={<Customers />} />
             <Route path="/favourites" element={<Favourites />} />
+            <Route path ="/details/:id" element={<Detail/>}/>
+            <Route path="*" element={<NotFound />} />
+            
           </Routes>
           <Footer/>
         </BrowserRouter>

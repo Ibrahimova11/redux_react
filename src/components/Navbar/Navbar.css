@@ -6,12 +6,13 @@
 header{
     width: 100%;
     background-color: hotpink !important;
-    font-size: 20px;
+    font-size: 30px;
+    height: 80px;
 }
 
 nav{
     display: flex;
-    width: 90%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     justify-content: space-between;
@@ -19,6 +20,15 @@ nav{
     
 }
 
+.title{
+    font-size: 20px;
+    margin-top: -25px;
+    
+}
+.title:hover{
+    color:#1890ff;
+    cursor: pointer;
+}
 
 
 .navb{
@@ -30,11 +40,11 @@ nav{
 }
 ul{
    display: flex;
-   width: 230px;
+   width: 250px;
    justify-content: space-between;
    display: flex;
     flex-direction: row;
-    gap: 60px;
+    gap: 70px;
 }
 
 
@@ -48,6 +58,20 @@ ul{
     
     
 }
+
+sup{
+    top: -4em;
+    position: relative;
+    font-size: 75%;
+    line-height: 0;
+    vertical-align: baseline;
+    margin-left: 80px;
+}
+
+.link:hover{
+   color:#1890ff
+  
+} 
 
 li{
     text-decoration: none;

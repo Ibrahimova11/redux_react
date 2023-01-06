@@ -1,8 +1,12 @@
-import React from 'react'
 
+import React from 'react'
+import Table from '../../components/Table/Table'
 const Customers = () => {
   return (
-    <div>Customers</div>
+    <div className='customers'>
+
+    <Table/>
+    </div>
   )
 }
 
